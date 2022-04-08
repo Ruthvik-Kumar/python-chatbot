@@ -1,6 +1,7 @@
 from flask import Flask, request
 from flask_cors import CORS, cross_origin
-from google.cloud import dialogflow
+#from google.cloud import dialogflow
+from google.cloud import dialogflow_v2beta1 as dialogflow
 
 project_id = 'newagent-hvgx'
 session_id = '123456789'  # generate random
